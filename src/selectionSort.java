@@ -24,7 +24,7 @@ public class selectionSort {
     }
 
     public static int[] generateArr(){
-        int[] arr = new int[(int)(9 * Math.random() + 5)];
+        int[] arr = new int[(int)(1 * Math.random() + 4)];
         for(int i = 0; i < arr.length; i++){
             arr[i] = (int)(50 * Math.random());
         }
@@ -40,9 +40,13 @@ public class selectionSort {
     }
 
     public static void swap(int[] arr, int i, int j){
-        int temp = arr[i];
+       /* int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
+        */
+       arr[i] = arr[i] ^ arr[j];
+       arr[j] = arr[i] ^ arr[j];
+       arr[i] = arr[i] ^ arr[j];
     }
 
 }
