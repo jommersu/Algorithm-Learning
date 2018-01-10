@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb549469-c171-4e5a-acf5-86890b4b6765" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stack_and_queue/stack_by_array.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stack_and_queue/queue_by_array.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="stack_by_array.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/stack_and_queue/stack_by_array.java">
+      <file leaf-file-name="queue_by_array.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stack_and_queue/queue_by_array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="276">
+              <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -63,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/sort/testofreview.java" />
         <option value="$PROJECT_DIR$/src/stack_and_queue/stack_by_array.java" />
+        <option value="$PROJECT_DIR$/src/stack_and_queue/queue_by_array.java" />
       </list>
     </option>
   </component>
@@ -107,6 +108,26 @@
               <item name="sortALTHclass1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sortALTHclass1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sortALTHclass1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stack_and_queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sortALTHclass1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sortALTHclass1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stack_and_queue" type="462c0819:PsiDirectoryNode" />
+              <item name="queue_by_array.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="sortALTHclass1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sortALTHclass1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stack_and_queue" type="462c0819:PsiDirectoryNode" />
+              <item name="stack_by_array.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -134,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.stack_by_array">
+  <component name="RunManager" selected="Application.queue_by_array">
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="sort.HeapSort" />
@@ -152,20 +173,6 @@
     <configuration name="HeapSortReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="sort.HeapSortReview" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="sortALTHclass1" />
-      <envs />
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -272,6 +279,25 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="queue_by_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="stack_and_queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="stack_and_queue.queue_by_array" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sortALTHclass1" />
+      <envs />
+    </configuration>
     <configuration name="stack_by_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -292,19 +318,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MergeSort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.HeapSort" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MergeSortReview" />
-      <item index="3" class="java.lang.String" itemvalue="Application.HeapSortReview" />
-      <item index="4" class="java.lang.String" itemvalue="Application.stack_by_array" />
+      <item index="0" class="java.lang.String" itemvalue="Application.HeapSort" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MergeSortReview" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HeapSortReview" />
+      <item index="3" class="java.lang.String" itemvalue="Application.stack_by_array" />
+      <item index="4" class="java.lang.String" itemvalue="Application.queue_by_array" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.stack_by_array" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HeapSortReview" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MergeSortReview" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HeapSort" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MergeSort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.queue_by_array" />
+        <item index="1" class="java.lang.String" itemvalue="Application.stack_by_array" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HeapSortReview" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MergeSortReview" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -327,12 +353,12 @@
       <workItem from="1513329995839" duration="578000" />
       <workItem from="1513601416440" duration="5396000" />
       <workItem from="1513690189704" duration="2725000" />
-      <workItem from="1515568306354" duration="4724000" />
+      <workItem from="1515568306354" duration="8074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34740000" />
+    <option name="totallyTimeSpent" value="38090000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -347,7 +373,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2993421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3305921" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -359,7 +385,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33552632" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33552632" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -399,18 +425,6 @@
           <line>6</line>
           <properties />
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/stack_and_queue/stack_by_array.java</url>
-          <line>7</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/stack_and_queue/stack_by_array.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="18" />
@@ -740,8 +754,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stack_and_queue/stack_by_array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="116">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack_and_queue/queue_by_array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
           <folding />
         </state>
       </provider>
