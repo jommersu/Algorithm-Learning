@@ -1,3 +1,5 @@
+package sort;
+
 public class insertSort {
     public static void main(String[] args){
         int[] arr = generateArr();

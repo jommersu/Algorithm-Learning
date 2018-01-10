@@ -1,15 +1,17 @@
+package sort;
+
 public class testofreview {
 
     public static void main(String[] args){
         int[] arr = generate();
         printArr(arr);
         //bubbleSort(arr);
-        //selectionSort(arr);
-        //insertSort(arr);
+        //sort.selectionSort(arr);
+        //sort.insertSort(arr);
         printArr(arr);
     }
 
-    /**************BubbleSort Algorithm************/
+    /**************sort.BubbleSort Algorithm************/
 /*    public static void bubbleSort(int[] arr){
         if(arr == null || arr.length < 2){
             return;
@@ -28,7 +30,7 @@ public class testofreview {
 /****************SelectionSort Algorithm*********/
 
 /*
-    public static void selectionSort(int[] arr){
+    public static void sort.selectionSort(int[] arr){
         if(arr == null || arr.length < 2){
             return;
         }
@@ -44,9 +46,9 @@ public class testofreview {
     }
 */
 
-/****************insertSort Algorithm**************/
+/****************sort.insertSort Algorithm**************/
 /*
-    public static void insertSort(int[] arr){
+    public static void sort.insertSort(int[] arr){
         for (int i = 1; i < arr.length; i++){
             for(int j = i; j > 0 && arr[j] < arr[j - 1]; j--){
                 swap(arr, j , j - 1);

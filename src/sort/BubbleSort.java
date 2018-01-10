@@ -1,3 +1,5 @@
+package sort;
+
 public class BubbleSort {
     public static void main(String[] args){
         int arr[] = new int[(int)(11 * Math.random() + 5)];

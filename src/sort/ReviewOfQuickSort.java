@@ -1,3 +1,5 @@
+package sort;
+
 public class ReviewOfQuickSort {
 
     public static void main(String[] args){
