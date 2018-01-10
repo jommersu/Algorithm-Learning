@@ -1,5 +1,6 @@
 package stack_and_queue;
 
+/*********用数组实现队列结构********/
 public class queue_by_array {
     public static void main(String[] args){
         Queue queue = new Queue(8);

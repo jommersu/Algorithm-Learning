@@ -1,7 +1,6 @@
 package stack_and_queue;
 
-import java.util.Scanner;
-
+/*********用数组实现栈结构***********/
 public class stack_by_array {
     public static void main(String[] args){
         System.out.println("enter the length of stack");
